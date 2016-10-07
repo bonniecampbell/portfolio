@@ -72,6 +72,14 @@ nav li {
   color: white;
 }
 
+.p-title {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 3em;
+  width: 100%;
+  text-align: center;
+}
+
 @media only screen and (min-width: 10em) {
 
   .icons {
