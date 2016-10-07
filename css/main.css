@@ -39,16 +39,85 @@ nav li {
   display: block;
 }
 
-.reel {
-  padding-top: 3em;
-width: 100%;
+.reel img{
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img{
+  width: 75%;
+  padding: 2em;
 }
 
 .video {
     margin-left: 0 auto;
 }
 
-@media only screen and (min-width: 21.75em) {
+.bio {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  padding-top: 2em;
+  margin: 2em;
+}
+
+.e-mail p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (min-width: 10em) {
+
+  .icons {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .icons a{
+    display: block;
+    text-decoration: none;
+  }
+
+  .linkedin img {
+    width: 20%;
+    margin-right: 0.5em;
+    text-decoration: none;
+  }
+
+  .behance img {
+    width: 20%;
+    margin-right: 0.5em;
+    text-decoration: none;
+  }
+
+
+  .vimeo img {
+  width: 20%;
+  margin-right: 0.5em;
+  text-decoration: none;
+  }
+
+  .twitter img {
+    width: 20%;
+    margin-right: 0.5em;
+    text-decoration: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 25em) {
+
+  .logo img{
+    width: 60%;
+    padding: 2em;
+  }
 
   nav {
     width: 100%;
@@ -68,8 +137,145 @@ width: 100%;
     display: inline-block;
   }
 
+  .bio {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 1.1em;
 }
 
+.icons {
+  overflow: hidden;
+  text-align: center;
+}
+
+.icons a{
+  display: block;
+  text-decoration: none;
+}
+
+.linkedin img {
+  width: 15%;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+.behance img {
+  width: 15%;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+
+.vimeo img {
+width: 15%;
+margin-right: 0.5em;
+text-decoration: none;
+}
+
+.twitter img {
+  width: 15%;
+  margin-right: 0.5em;
+  text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 28em) {
+
+.logo img{
+  width: 50%;
+  padding: 2em;
+}
+
+.bio {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.e-mail p {
+  font-size: 1.7em;
+}
+
+.icons {
+  overflow: hidden;
+  text-align: center;
+}
+
+.icons a{
+  display: inline;
+  text-decoration: none;
+}
+
+.linkedin img {
+  width: 15%;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+.behance img {
+  width: 15%;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+
+.vimeo img {
+width: 15%;
+margin-right: 0.5em;
+text-decoration: none;
+}
+
+.twitter img {
+  width: 15%;
+  margin-right: 0.5em;
+  text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 43em) {
+
+.logo img{
+  width: 40%;
+  padding: 2em;
+}
+
+  .linkedin img {
+    width: 10%;
+    margin-right: 0.5em;
+    text-decoration: none;
+  }
+
+  .behance img {
+    width: 10%;
+    margin-right: 0.5em;
+    text-decoration: none;
+  }
+
+
+  .vimeo img {
+  width: 10%;
+  margin-right: 0.5em;
+  text-decoration: none;
+  }
+
+  .twitter img {
+    width: 10%;
+    margin-right: 0.5em;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 54em) {
+
+.logo img{
+  width: 30%;
+  padding: 2em;
+}
+
+  .bio {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -89,5 +295,39 @@ width: 100%;
 
   nav li {
     display: inline-block;
+  }
+
+  .icons {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .icons a{
+    display: inline;
+    text-decoration: none;
+  }
+
+  .linkedin img {
+    width: 5%;
+    margin-right: 0.5em;
+    text-decoration: none;
+  }
+
+  .behance img {
+    width: 5%;
+    margin-right: 0.5em;
+    text-decoration: none;
+  }
+
+  .vimeo img {
+  width: 5%;
+  margin-right: 0.5em;
+  text-decoration: none;
+  }
+
+  .twitter img {
+    width: 5%;
+    margin-right: 0.5em;
+    text-decoration: none;
   }
 }
