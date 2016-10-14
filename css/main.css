@@ -21,6 +21,14 @@ body {
   background-color: black;
 }
 
+.grid {
+  text-align: center;
+}
+
+.artwork {
+  width: 100%;
+}
+
 nav {
   width: 100%;
   text-align: center;
@@ -80,11 +88,17 @@ nav li {
   text-align: center;
 }
 
+.explainer-text {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 @media only screen and (min-width: 10em) {
 
   .icons {
     overflow: hidden;
     text-align: center;
+    padding-bottom: 2em;
   }
 
   .icons a{
