@@ -79,6 +79,7 @@ nav li {
   text-align: center;
   color: white;
   font-size: 1.3em;
+  padding-top: 0;
 }
 
 .p-title {
@@ -92,6 +93,8 @@ nav li {
 .explainer-text {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
+  text-align: left;
+  padding-bottom: 2em;
 }
 
 footer {
@@ -104,6 +107,17 @@ footer {
 
 .work {
   text-align: center;
+  padding-top: 5em;
+}
+
+.work img {
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.work-text {
+  color: white;
 }
 
 @media only screen and (min-width: 10em) {
@@ -111,7 +125,7 @@ footer {
   .icons {
     overflow: hidden;
     text-align: center;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
   }
 
   .icons a{
@@ -142,6 +156,10 @@ footer {
     width: 20%;
     margin-right: 0.5em;
     text-decoration: none;
+    }
+
+    .work-text {
+      margin: 2em;
     }
 }
 
@@ -264,6 +282,7 @@ text-decoration: none;
   margin-right: 0.5em;
   text-decoration: none;
   }
+
 }
 
 @media only screen and (min-width: 43em) {
@@ -296,6 +315,10 @@ text-decoration: none;
     width: 10%;
     margin-right: 0.5em;
     text-decoration: none;
+  }
+
+  .work-text {
+    margin: 5em;
   }
 }
 
