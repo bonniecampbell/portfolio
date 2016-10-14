@@ -78,6 +78,7 @@ nav li {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   color: white;
+  font-size: 1.3em;
 }
 
 .p-title {
@@ -91,6 +92,18 @@ nav li {
 .explainer-text {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer {
+  background-color: grey;
+}
+
+.footer-back {
+  padding-top: 2em;
+}
+
+.work {
+  text-align: center;
 }
 
 @media only screen and (min-width: 10em) {
@@ -351,5 +364,9 @@ text-decoration: none;
     width: 5%;
     margin-right: 0.5em;
     text-decoration: none;
+  }
+
+  .e-mail p {
+    font-size: 1.3em;
   }
 }
