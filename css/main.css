@@ -120,6 +120,12 @@ footer {
   color: white;
 }
 
+.my-info {
+  color: white;
+  text-align: center;
+  padding-top: 10em;
+}
+
 @media only screen and (min-width: 10em) {
 
   .icons {
