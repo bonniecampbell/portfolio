@@ -167,6 +167,10 @@ footer {
     .work-text {
       margin: 2em;
     }
+
+    .mail {
+      font-size: 1em;
+    }
 }
 
 
@@ -235,6 +239,10 @@ text-decoration: none;
   width: 15%;
   margin-right: 0.5em;
   text-decoration: none;
+  }
+
+  .mail {
+    font-size: 1.5em;
   }
 }
 
