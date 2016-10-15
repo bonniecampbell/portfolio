@@ -130,6 +130,11 @@ footer {
 
 .name {
   margin: 0.5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.mail {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @media only screen and (min-width: 10em) {
