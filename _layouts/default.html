@@ -2,13 +2,12 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Home Page - Interactive Wireframes</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% if page.title %}{{page.title}} · {% endif %}</title>
+  <meta name="description" content="{{page.meta}}">
   <link href="css/mode.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
 
 
   <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
@@ -17,17 +16,13 @@
 </head>
 <body>
 
-  <div class="nav">
-    <nav>
-      <ol>
-        <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-        <li><a href="{{site.baseurl}}/portfolio.html">Portfolio</a></li>
-        <li><a href="{{site.baseurl}}/contact.html">Contact</a></li>
-      </ol>
-    </nav>
-  </div>
+<header>
+  {% include nav.html %}
+</header>
 
+<main>
 {{content}}
+</main>
 
 </body>
 </html>
