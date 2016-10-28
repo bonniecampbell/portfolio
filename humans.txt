@@ -1,0 +1,26 @@
+# TEAM
+
+Designer & Developer: Bonnie Campbell <bonnie.jp.campbell@hotmail.com>
+Site: https://bonbonn.design
+GitHub: https://github.com/bonniecampbell
+Twitter: @bcgraphicdesign
+Location: Ottawa, Ontario, Canada
+
+---
+
+# THANKS
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Git + GitHub
+
+
+
+## Hosting
+
+- Hover <https://hover.com>

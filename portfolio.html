@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Porfolio
+title: Bonnie Campbell, Graphic Design Portfolio, Porfolio
 meta: View my portfolio pieces
 changefreq: weekly
 ---
@@ -11,21 +11,22 @@ changefreq: weekly
 
   <div class="grid">
 
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter">
-      <div class="grid">
+
+      {% for portfolio in site.data.portfolio-work %}
+      <div class="grid unit xs-1 s-1 m-1-2 l-1-4 gutter">
         <div class="unit xs-1 s-1 m-1 l-1 gutter">
           <a href="artwork.html">
-          <img class="artwork" src="http://placehold.it/200x200" alt="#">
+          <img class="artwork" src="{{portfolio.image}}" alt="#">
           </a>
         </div>
 
         <div class="unit xs-1 s-1 m-1 l-1 gutter">
-          <p class="explainer-text">Marble Crumbs Video Opener</p>
+          <p class="explainer-text">{{portfolio.title}}</p>
         </div>
       </div>
-    </div>
+  {% endfor %}
 
-    <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter">
+<!--    <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter">
       <div class="grid">
         <div class="unit xs-1 s-1 m-1 l-1 gutter">
           <a href="artwork.html">
@@ -185,7 +186,7 @@ changefreq: weekly
           <p class="explainer-text">Garden</p>
         </div>
       </div>
-    </div>
+    </div>-->
 
   </div>
 
@@ -198,16 +199,16 @@ changefreq: weekly
 
     <div class="icons">
       <a class="linkedin" href="https://www.linkedin.com/in/bonnie-campbell-1b2224113?trk=nav_responsive_tab_profile_pic">
-        <img src="img/linkedin-icon.svg" alt="linkedin">
+        <img src="{{site.baseurl}}/img/linkedin-icon.svg" alt="linkedin">
       </a>
       <a class="behance" href="https://www.behance.net/bonniecampbell">
-        <img src="img/behance-icon.svg" alt="behance">
+        <img src="{{site.baseurl}}/img/behance-icon.svg" alt="behance">
       </a>
       <a class="vimeo" href="https://vimeo.com/user47962248">
-      <img src="img/vimeo-icon.svg" alt="vimeo">
+      <img src="{{site.baseurl}}/img/vimeo-icon.svg" alt="vimeo">
       </a>
       <a class="twitter" href="https://twitter.com/bcgraphicdesign">
-      <img src="img/twitter-icon.svg" alt="twitter">
+      <img src="{{site.baseurl}}/img/twitter-icon.svg" alt="twitter">
       </a>
 
     </div>

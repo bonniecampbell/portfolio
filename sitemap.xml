@@ -4,6 +4,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <url>
+    <loc>https://bonbonn.design/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2015-08-29</lastmod>
+  </url>
+
+  <url>
+    <loc>https://bonbonn.design/portfolio/</loc>
+  </url>
+
+  <url>
+    <loc>https://bonbonn.design/contacts/</loc>
+  </url>
+
   {% for page in site.pages %}
     {% if page.layout %}
       {% include sitemap-entry.xml entry=page %}
