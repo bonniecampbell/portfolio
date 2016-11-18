@@ -103,7 +103,7 @@ nav li {
 }
 
 footer {
-  background-color: grey;
+  background-color: black;
 }
 
 .footer-back {
@@ -327,26 +327,26 @@ text-decoration: none;
 }
 
   .linkedin img {
-    width: 10%;
+    width: 8%;
     margin-right: 0.5em;
     text-decoration: none;
   }
 
   .behance img {
-    width: 10%;
+    width: 8%;
     margin-right: 0.5em;
     text-decoration: none;
   }
 
 
   .vimeo img {
-  width: 10%;
+  width: 8%;
   margin-right: 0.5em;
   text-decoration: none;
   }
 
   .twitter img {
-    width: 10%;
+    width: 8%;
     margin-right: 0.5em;
     text-decoration: none;
   }
@@ -400,25 +400,25 @@ text-decoration: none;
   }
 
   .linkedin img {
-    width: 5%;
+    width: 4%;
     margin-right: 0.5em;
     text-decoration: none;
   }
 
   .behance img {
-    width: 5%;
+    width: 4%;
     margin-right: 0.5em;
     text-decoration: none;
   }
 
   .vimeo img {
-  width: 5%;
+  width: 4%;
   margin-right: 0.5em;
   text-decoration: none;
   }
 
   .twitter img {
-    width: 5%;
+    width: 4%;
     margin-right: 0.5em;
     text-decoration: none;
   }
