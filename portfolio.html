@@ -12,18 +12,19 @@ changefreq: weekly
   <div class="grid">
 
 
-      {% for portfolio in site.data.portfolio-work %}
-      <div class="grid unit xs-1 s-1 m-1-2 l-1-4 gutter">
+  {% for portfolio in site.data.portfolio-work %}
+    <div class="conatiner unit xs-1 s-1 m-1-2 l-1-4 gutter">
+      <div class="grid ">
         <div class="unit xs-1 s-1 m-1 l-1 gutter">
-          <a href="{{site.baseurl}}/{{portfolio.link}}">
-          <img class="artwork" src="{{site.baseurl}}/{{portfolio.image}}" alt="#">
-          </a>
+          <img class="{{portfolio.title}}" src="{{site.baseurl}}/{{portfolio.image}}" alt="#">
         </div>
 
         <div class="unit xs-1 s-1 m-1 l-1 gutter">
           <p class="explainer-text">{{portfolio.title}}</p>
         </div>
       </div>
+      <div class="lightbox" id="{{portfolio.title}}"><h1>hello</h1></div>
+    </div>
   {% endfor %}
 
 <!--    <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter">
