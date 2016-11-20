@@ -115,16 +115,14 @@ footer {
   padding-top: 5em;
 }
 
-.work img {
-  width: 100%;
-  padding-left: 2em;
-  padding-right: 2em;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
 .work-text {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
+  text-align: left;
+}
+
+.work-text p {
+  font-size: 1.2em;
 }
 
 .my-info {
