@@ -1,5 +1,6 @@
-var $artwork-1 = $('.artwork-1');
+var $popUp = $('.pop-up');
 
-$('.artwork-1').click(function (e) {
+$popUp.click(function (e) {
+  e.preventDefault();
   $('#'+$(e.target).attr('class')).toggleClass('active');
 });
