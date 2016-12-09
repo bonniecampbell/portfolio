@@ -144,6 +144,34 @@ footer {
   color: grey;
 }
 
+.not-found {
+ background-color: #2F1A45;
+ min-height: 80vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.not-found h1{
+  color: white;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+}
+
+.not-found h2 {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.cupcake {
+  width: 60%;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 500px;
+
+}
+
 @media only screen and (min-width: 10em) {
 
   .bio {
@@ -427,5 +455,91 @@ text-decoration: none;
 
   .e-mail p {
     font-size: 1.3em;
+  }
+}
+
+.eyes {
+  animation: opacity 1.5s ease-in infinite;
+
+}
+
+@keyframes opacity {
+
+  0% {
+    opacity: 0;
+  }
+
+    5% {
+      opacity: 1;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    30% {
+      opacity: 0;
+    }
+
+    40% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 1;
+    }
+}
+
+.mouth {
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-animation: beat 1s linear infinite;
+  animation: beat 1s linear infinite;
+}
+
+@-webkit-keyframes beat {
+
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  20% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  80% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes beat {
+
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  20% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  80% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
